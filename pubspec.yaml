@@ -1,0 +1,41 @@
+name: deplacetoi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.2.2
+  provider: ^6.1.2
+  flutter_localizations:
+    sdk: flutter
+  country_picker: ^2.0.26
+  image_picker: ^1.1.2
+  shared_preferences: ^2.1.0
+  url_launcher: ^6.1.10
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/english.png
+    - assets/icons/french.png
+    - assets/icons/arabic.png
+    - assets/image1.png
+    - assets/image2.png
+    - assets/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
